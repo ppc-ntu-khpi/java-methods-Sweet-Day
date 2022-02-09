@@ -4,9 +4,12 @@
 
 public class TestResult {
 
-    public static void main(String[] args) {
-
-        int R=10;
-        System.out.println("Area of a circle for R="+R+"m is "+Exercise.Calculate(R)+"m"+'\u00B2');
+    public static void main(String[] args)
+    {
+        String text = "PROGRAMMING";
+        int n = 6;
+        System.out.println("Ваше слово  : " + text);
+        System.out.println("Зсув : " + n);
+        System.out.println("Результат: " + Exercise.Calculate(text, n));
     }
 }
